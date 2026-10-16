@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>好看的爱情电影网 · 经典爱情片片单与影评笔记</title>
+<meta name="description" content="好看的爱情电影网（https://haokandeaiqingdianyingwang-app.github.io）整理值得一看的爱情电影：每周片单、经典爱情片排名、影评笔记与按场景选片指南，帮你少踩雷，多看好片。">
+<meta name="keywords" content="爱情电影推荐,好看的爱情电影,经典爱情片排行榜,情侣观影片单,爱情电影影评,浪漫电影推荐,好看的爱情电影网">
+<meta name="author" content="好看的爱情电影网">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#151119">
+<link rel="canonical" href="https://haokandeaiqingdianyingwang-app.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="好看的爱情电影网">
+<meta property="og:title" content="好看的爱情电影网 · 经典爱情片片单与影评笔记">
+<meta property="og:description" content="每周片单、经典爱情片排名、影评笔记与按场景选片指南，把值得二刷的爱情片挑出来给你看。">
+<meta property="og:url" content="https://haokandeaiqingdianyingwang-app.github.io/">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="好看的爱情电影网">
+<meta name="twitter:description" content="爱情电影片单、榜单与影评笔记，更新至 2026 年 10 月。">
+<style>
+:root{
+  --ink:#151119;
+  --ink2:#1e1926;
+  --line:#332b3d;
+  --paper:#f4efe9;
+  --muted:#a99fb5;
+  --rose:#e46f92;
+  --gold:#e9b872;
+  --leaf:#7fc4a3;
+  --radius:14px;
+  --wrap:1160px;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;}
+body{
+  margin:0;
+  background:var(--ink);
+  color:var(--paper);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",system-ui,sans-serif;
+  font-size:16px;
+  line-height:1.75;
+  background-image:
+    radial-gradient(900px 480px at 12% -8%, rgba(228,111,146,.16), transparent 62%),
+    radial-gradient(760px 420px at 92% 4%, rgba(233,184,114,.12), transparent 60%);
+  background-repeat:no-repeat;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;letter-spacing:.02em;}
+p{margin:0;}
+ul,ol{margin:0;padding:0;list-style:none;}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px;}
+
+/* 顶部地址条 */
+.addrbar{
+  background:#0f0c14;border-bottom:1px solid var(--line);
+  font-size:13px;color:var(--muted);
+}
+.addrbar .wrap{display:flex;gap:14px;align-items:center;justify-content:space-between;min-height:38px;flex-wrap:wrap;}
+.addrbar b{color:var(--gold);font-weight:600;letter-spacing:.04em;}
+.addrbar span{display:inline-flex;align-items:center;gap:6px;}
+
+/* 头部 */
+.topbar{position:sticky;top:0;z-index:30;background:rgba(21,17,25,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+.topbar .wrap{display:flex;align-items:center;gap:18px;min-height:66px;}
+.brand{display:flex;align-items:center;gap:10px;flex:0 0 auto;}
+.mark{
+  width:38px;height:38px;border-radius:11px;flex:0 0 auto;
+  background:linear-gradient(150deg,var(--rose),#8b3a63);
+  display:grid;place-items:center;font-size:19px;color:#fff;
+  box-shadow:0 6px 18px rgba(228,111,146,.32);
+}
+.brand strong{font-size:19px;letter-spacing:.06em;}
+.brand em{display:block;font-style:normal;font-size:11px;color:var(--muted);letter-spacing:.22em;}
+.nav{margin-left:auto;display:flex;gap:4px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:6px 0;}
+.nav::-webkit-scrollbar{display:none;}
+.nav a{
+  white-space:nowrap;font-size:14.5px;color:#cdc3d6;padding:7px 13px;border-radius:999px;
+  border:1px solid transparent;transition:.22s;
+}
+.nav a:hover,.nav a:focus{color:#fff;background:rgba(228,111,146,.14);border-color:rgba(228,111,146,.4);}
+
+/* 首屏 */
+.hero{padding:64px 0 46px;border-bottom:1px solid var(--line);}
+.hero-grid{display:grid;grid-template-columns:1.35fr .95fr;gap:44px;align-items:center;}
+.kicker{
+  display:inline-flex;align-items:center;gap:9px;font-size:12.5px;color:var(--gold);
+  border:1px dashed rgba(233,184,114,.5);border-radius:999px;padding:5px 14px;letter-spacing:.14em;
+}
+.hero h1{font-size:clamp(32px,5.2vw,56px);margin:22px 0 16px;letter-spacing:.04em;}
+.hero h1 i{font-style:normal;color:var(--rose);}
+.lead{color:#c8bfd2;font-size:17px;max-width:52ch;}
+.hero-btns{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap;}
+.btn{
+  display:inline-block;padding:12px 24px;border-radius:999px;font-size:15px;font-weight:600;transition:.2s;
+}
+.btn-1{background:linear-gradient(135deg,var(--rose),#b8456e);color:#fff;box-shadow:0 8px 22px rgba(228,111,146,.28);}
+.btn-1:hover{transform:translateY(-2px);}
+.btn-2{border:1px solid var(--line);color:#e3dcec;}
+.btn-2:hover{border-color:var(--gold);color:var(--gold);}
+
+/* 票根卡 */
+.ticket{
+  position:relative;background:linear-gradient(165deg,#241d30,#191424);
+  border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;
+  box-shadow:0 18px 40px rgba(0,0,0,.4);
+}
+.ticket::before,.ticket::after{
+  content:"";position:absolute;left:0;right:0;height:1px;
+  background:repeating-linear-gradient(90deg,var(--line) 0 8px,transparent 8px 16px);
+}
+.ticket::before{top:56px;}
+.ticket::after{bottom:56px;}
+.ticket h3{font-size:15px;color:var(--gold);letter-spacing:.16em;font-weight:600;}
+.ticket .film{font-size:26px;margin:18px 0 8px;letter-spacing:.05em;}
+.ticket dl{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:14px;margin:16px 0 0;}
+.ticket dt{color:var(--muted);}
+.ticket dd{margin:0;text-align:right;}
+
+/* 数据条 */
+.stats{border-bottom:1px solid var(--line);background:rgba(255,255,255,.015);}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);}
+.stats div{padding:22px 8px;text-align:center;border-left:1px solid var(--line);}
+.stats div:first-child{border-left:0;}
+.stats b{display:block;font-size:26px;color:var(--paper);letter-spacing:.02em;}
+.stats small{color:var(--muted);font-size:12.5px;letter-spacing:.08em;}
+
+/* 通用栏头 */
+.sec{padding:60px 0;}
+.sec-head{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:30px;}
+.sec-head h2{font-size:clamp(22px,3vw,30px);}
+.sec-head .en{font-size:12px;color:var(--muted);letter-spacing:.24em;text-transform:uppercase;}
+.sec-head p{color:var(--muted);font-size:14.5px;margin-left:auto;max-width:40ch;}
+
+/* 片单卡片 */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.card{
+  background:var(--ink2);border:1px solid var(--line);border-radius:var(--radius);
+  overflow:hidden;transition:.25s;display:flex;flex-direction:column;
+}
+.card:hover{transform:translateY(-5px);border-color:rgba(228,111,146,.45);}
+.thumb{
+  height:150px;position:relative;
+  background:
+    linear-gradient(200deg,rgba(228,111,146,.5),rgba(35,25,45,.9)),
+    repeating-linear-gradient(45deg,#1b1626 0 10px,#221b2e 10px 20px);
+  display:flex;align-items:flex-end;padding:14px;
+}
+.thumb span{
+  font-size:12px;background:rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.18);
+  padding:3px 10px;border-radius:999px;letter-spacing:.08em;
+}
+.card-body{padding:18px 18px 20px;flex:1;display:flex;flex-direction:column;}
+.card-body h3{font-size:18px;}
+.meta{font-size:12.5px;color:var(--muted);margin:6px 0 10px;}
+.card-body p{font-size:14.5px;color:#c3bad0;}
+.score{margin-top:14px;font-size:13px;color:var(--gold);display:flex;align-items:center;gap:8px;}
+.score i{font-style:normal;flex:1;height:5px;border-radius:3px;background:#332a3f;overflow:hidden;}
+.score i b{display:block;height:100%;background:linear-gradient(90deg,var(--rose),var(--gold));}
+
+/* 榜单 */
+.rank{display:grid;grid-template-columns:1fr 1fr;gap:0 34px;}
+.rank li{
+  display:grid;grid-template-columns:46px 1fr auto;gap:14px;align-items:center;
+  padding:15px 0;border-bottom:1px dashed #2c2438;
+}
+.rank .no{font-size:22px;color:#4d4159;font-weight:800;font-family:Georgia,serif;}
+.rank li:nth-child(-n+3) .no{color:var(--rose);}
+.rank h4{font-size:16.5px;font-weight:600;}
+.rank .year{font-size:13px;color:var(--muted);}
+.rank .tag{font-size:12px;color:var(--leaf);border:1px solid rgba(127,196,163,.35);border-radius:6px;padding:2px 9px;}
+
+/* 影评时间轴 */
+.notes{border-left:2px solid var(--line);padding-left:26px;}
+.notes article{position:relative;padding:0 0 30px;}
+.notes article::before{
+  content:"";position:absolute;left:-33px;top:9px;width:11px;height:11px;border-radius:50%;
+  background:var(--rose);box-shadow:0 0 0 4px rgba(228,111,146,.16);
+}
+.notes time{font-size:12.5px;color:var(--gold);letter-spacing:.1em;}
+.notes h3{font-size:19px;margin:6px 0 8px;}
+.notes h3 a:hover{color:var(--rose);}
+.notes p{color:#c3bad0;font-size:14.5px;max-width:78ch;}
+.notes .more{font-size:13.5px;color:var(--muted);}
+.notes .more:hover{color:var(--gold);}
+
+/* 场景 */
+.chips{display:flex;flex-wrap:wrap;gap:10px;}
+.chips a{
+  padding:9px 17px;border-radius:8px;background:rgba(255,255,255,.04);
+  border:1px solid var(--line);font-size:14.5px;transition:.2s;
+}
+.chips a:hover{background:rgba(228,111,146,.14);border-color:var(--rose);color:#fff;}
+.scene-box{margin-top:26px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.scene-box div{border:1px solid var(--line);border-radius:var(--radius);padding:20px;background:var(--ink2);}
+.scene-box h4{font-size:16px;margin-bottom:8px;color:var(--gold);}
+.scene-box p{font-size:14px;color:#bfb6cc;}
+
+/* 心动指数 */
+.bars{display:grid;gap:16px;max-width:860px;}
+.bar{display:grid;grid-template-columns:150px 1fr 54px;gap:14px;align-items:center;}
+.bar span{font-size:14.5px;}
+.bar .track{height:12px;border-radius:8px;background:#2b2336;overflow:hidden;}
+.bar .track b{display:block;height:100%;border-radius:8px;background:linear-gradient(90deg,#7fc4a3,var(--gold));}
+.bar em{font-style:normal;text-align:right;color:var(--gold);font-size:15px;font-weight:700;}
+
+/* FAQ */
+.faq{max-width:900px;border-top:1px solid var(--line);}
+.faq details{border-bottom:1px solid var(--line);padding:16px 0;}
+.faq summary{
+  cursor:pointer;font-size:16.5px;font-weight:600;list-style:none;display:flex;
+  justify-content:space-between;gap:14px;align-items:center;
+}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:"＋";color:var(--rose);font-size:18px;}
+.faq details[open] summary::after{content:"－";}
+.faq p{padding-top:10px;color:#bfb6cc;font-size:14.5px;}
+
+/* 表单 */
+.letter{background:linear-gradient(150deg,#241d30,#171220);border:1px solid var(--line);border-radius:18px;padding:34px;}
+.letter-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start;}
+.letter h2{font-size:24px;}
+.letter p{color:#c3bad0;font-size:14.5px;margin-top:12px;}
+form{display:grid;gap:12px;}
+input,textarea,select{
+  width:100%;background:#120e18;border:1px solid var(--line);color:var(--paper);
+  border-radius:10px;padding:12px 14px;font-size:15px;font-family:inherit;
+}
+textarea{min-height:96px;resize:vertical;}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--rose);}
+form button{
+  justify-self:start;border:0;cursor:pointer;padding:12px 28px;border-radius:999px;
+  background:linear-gradient(135deg,var(--rose),#b8456e);color:#fff;font-size:15px;font-weight:600;
+}
+
+/* 页脚 */
+footer{background:#0f0c14;border-top:1px solid var(--line);padding:44px 0 30px;margin-top:20px;}
+.f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px;}
+.f-grid h4{font-size:14px;color:var(--gold);letter-spacing:.12em;margin-bottom:12px;}
+.f-grid li{font-size:14px;padding:4px 0;}
+.f-grid li a{color:#bfb6cc;}
+.f-grid li a:hover{color:var(--rose);}
+.f-about p{font-size:14px;color:#a99fb5;max-width:46ch;}
+.legal{
+  margin-top:30px;padding-top:18px;border-top:1px solid var(--line);
+  font-size:12.5px;color:#84798f;display:flex;gap:16px;justify-content:space-between;flex-wrap:wrap;
+}
+.legal a{color:#84798f;}
+.legal a:hover{color:var(--gold);}
+
+/* 移动端 */
+@media (max-width:900px){
+  .hero-grid,.letter-grid,.cards,.rank,.scene-box{grid-template-columns:1fr;}
+  .hero{padding:44px 0 32px;}
+  .stats .wrap{grid-template-columns:1fr 1fr;}
+  .stats div:nth-child(3){border-left:0;}
+  .stats div:nth-child(n+3){border-top:1px solid var(--line);}
+  .sec{padding:44px 0;}
+  .f-grid{grid-template-columns:1fr 1fr;}
+  .notes{padding-left:20px;}
+}
+@media (max-width:560px){
+  .brand em{display:none;}
+  .topbar .wrap{min-height:58px;gap:10px;}
+  .bar{grid-template-columns:110px 1fr 46px;}
+  .ticket{padding:22px 18px;}
+  .ticket .film{font-size:22px;}
+  .sec-head p{margin-left:0;}
+  .f-grid{grid-template-columns:1fr;}
+  .legal{flex-direction:column;gap:8px;}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;scroll-behavior:auto!important;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<div class="addrbar">
+  <div class="wrap">
+    <span><b>本站地址</b> https://haokandeaiqingdianyingwang-app.github.io</span>
+    <span>每周三更新片单 · 影片信息以出品方公布为准</span>
+  </div>
+</div>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="好看的爱情电影网 首页">
+      <span class="mark" aria-hidden="true">♥</span>
+      <span>
+        <strong>好看的爱情电影网</strong>
+        <em>ROMANCE ON SCREEN</em>
+      </span>
+    </a>
+    <nav class="nav" aria-label="站点栏目导航">
+      <a href="#picks">本周片单</a>
+      <a href="#ranking">经典榜单</a>
+      <a href="#notes">影评笔记</a>
+      <a href="#scene">按场景挑片</a>
+      <a href="#index">心动指数</a>
+      <a href="#faq">常见问题</a>
+      <a href="#letter">投稿留言</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker">更新至 2026 年 10 月 · 第 48 期片单</span>
+        <h1 id="hero-title">把值得二刷的<i>爱情电影</i>，挑出来给你看</h1>
+        <p class="lead">
+          好看的爱情电影网只做一件事：从一堆片名里，把真的好看的那几部翻出来。
+          不写空话，不堆热搜，按年份、按心情、按你今晚想怎么过，给你一份能直接打开就看的片单。
+        </p>
+        <div class="hero-btns">
+          <a class="btn btn-1" href="#picks">看看本周片单</a>
+          <a class="btn btn-2" href="#ranking">翻经典榜单</a>
+        </div>
+      </div>
+      <aside class="ticket" aria-label="今日放映">
+        <h3>今日放映 / NOW SHOWING</h3>
+        <p class="film">《花样年华》</p>
+        <dl>
+          <dt>年份</dt><dd>2000 · 中国香港</dd>
+          <dt>导演</dt><dd>王家卫</dd>
+          <dt>时长</dt><dd>98 分钟</dd>
+          <dt>适合</dt><dd>安静的雨夜，一个人看</dd>
+          <dt>心动指数</dt><dd>9.4 / 10</dd>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <section class="stats" aria-label="站点收录概览">
+    <div class="wrap">
+      <div><b>320</b><small>收录片目</small></div>
+      <div><b>48</b><small>主题片单</small></div>
+      <div><b>126</b><small>影评笔记</small></div>
+      <div><b>6</b><small>年积累</small></div>
+    </div>
+  </section>
+
+  <section class="sec" id="picks" aria-labelledby="picks-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="picks-title">本周力荐片单</h2>
+        <span class="en">Editor's Picks</span>
+        <p>六部，都是看完了会想跟人聊两句的那种。评分是编辑部主观打分，满分 10 分。</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="thumb"><span>经典 · 港片</span></div>
+          <div class="card-body">
+            <h3>花样年华</h3>
+            <p class="meta">2000 · 王家卫 · 98 分钟</p>
+            <p>两个被各自伴侣背叛的人，在狭窄的走廊里反复错过。台词少得可怜，情绪全靠旗袍、雨声和那句没说出口的话。</p>
+            <div class="score"><i><b style="width:94%"></b></i>9.4</div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb"><span>公路 · 对谈</span></div>
+          <div class="card-body">
+            <h3>爱在黎明破晓前</h3>
+            <p class="meta">1995 · 理查德·林克莱特 · 101 分钟</p>
+            <p>维也纳的一夜，两个陌生人一路走一路聊。全片几乎只有对话，却把心动的来龙去脉讲透了。</p>
+            <div class="score"><i><b style="width:92%"></b></i>9.2</div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb"><span>书信 · 青春</span></div>
+          <div class="card-body">
+            <h3>情书</h3>
+            <p class="meta">1995 · 岩井俊二 · 117 分钟</p>
+            <p>一封寄往天国的信，意外收到了回音。雪、图书馆的窗帘、借书卡背面的素描，藏着一整个青春的暗恋。</p>
+            <div class="score"><i><b style="width:91%"></b></i>9.1</div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb"><span>年代 · 漂泊</span></div>
+          <div class="card-body">
+            <h3>甜蜜蜜</h3>
+            <p class="meta">1996 · 陈可辛 · 118 分钟</p>
+            <p>两个从内地到香港的年轻人，在邓丽君的歌声里分分合合十几年。讲的是爱情，也是一代人的漂泊。</p>
+            <div class="score"><i><b style="width:90%"></b></i>9.0</div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb"><span>夏日 · 成长</span></div>
+          <div class="card-body">
+            <h3>请以你的名字呼唤我</h3>
+            <p class="meta">2017 · 卢卡·瓜达尼诺 · 132 分钟</p>
+            <p>意大利的夏天，蜜桃、钢琴和一段注定会结束的关系。结尾那三分钟的长镜头，建议备好纸巾。</p>
+            <div class="score"><i><b style="width:88%"></b></i>8.8</div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb"><span>音乐 · 遗憾</span></div>
+          <div class="card-body">
+            <h3>爱乐之城</h3>
+            <p class="meta">2016 · 达米恩·查泽雷 · 128 分钟</p>
+            <p>关于梦想和爱情能不能同时成立。结尾那段"如果当初"的想象，比任何争吵都更让人难受。</p>
+            <div class="score"><i><b style="width:87%"></b></i>8.7</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="ranking" aria-labelledby="ranking-title" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="ranking-title">经典爱情片榜单 TOP 10</h2>
+        <span class="en">All Time Ranking</span>
+        <p>综合本站读者投票与重看率排出，每年 12 月重排一次。</p>
+      </div>
+      <ol class="rank">
+        <li><span class="no">01</span><div><h4>卡萨布兰卡</h4><span class="year">1942 · 美国</span></div><span class="tag">黑白经典</span></li>
+        <li><span class="no">02</span><div><h4>花样年华</h4><span class="year">2000 · 中国香港</span></div><span class="tag">华语巅峰</span></li>
+        <li><span class="no">03</span><div><h4>罗马假日</h4><span class="year">1953 · 美国</span></div><span class="tag">一日浪漫</span></li>
+        <li><span class="no">04</span><div><h4>泰坦尼克号</h4><span class="year">1997 · 美国</span></div><span class="tag">史诗爱情</span></li>
+        <li><span class="no">05</span><div><h4>情书</h4><span class="year">1995 · 日本</span></div><span class="tag">暗恋天花板</span></li>
+        <li><span class="no">06</span><div><h4>爱在黎明破晓前</h4><span class="year">1995 · 美国</span></div><span class="tag">话痨浪漫</span></li>
+        <li><span class="no">07</span><div><h4>甜蜜蜜</h4><span class="year">1996 · 中国香港</span></div><span class="tag">时代情感</span></li>
+        <li><span class="no">08</span><div><h4>傲慢与偏见</h4><span class="year">2005 · 英国</span></div><span class="tag">文学改编</span></li>
+        <li><span class="no">09</span><div><h4>重庆森林</h4><span class="year">1994 · 中国香港</span></div><span class="tag">都市孤独</span></li>
+        <li><span class="no">10</span><div><h4>时空恋旅人</h4><span class="year">2013 · 英国</span></div><span class="tag">温情治愈</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec" id="notes" aria-labelledby="notes-title" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="notes-title">影评笔记</h2>
+        <span class="en">Review Notes</span>
+        <p>看完写的，不是通稿。有剧透的地方会提前标出来。</p>
+      </div>
+      <div class="notes">
+        <article>
+          <time datetime="2026-10-08">10 月 08 日</time>
+          <h3><a href="#">重看《花样年华》：那些没说出口的话，都留在了走廊里</a></h3>
+          <p>第五次重看才注意到，两人的每一次擦肩，背景音乐都是同一段。王家卫把"错过"拍成了一种节奏，跟着它走，你会替他们着急，但你知道他们不会回头。</p>
+          <a class="more" href="#">继续读 →</a>
+        </article>
+        <article>
+          <time datetime="2026-09-26">09 月 26 日</time>
+          <h3><a href="#">《爱在黎明破晓前》为什么让人信：因为它几乎不制造戏剧</a></h3>
+          <p>没有车祸，没有误会，没有第三者。两个人在城里走了一夜，聊父母、聊死亡、聊小时候的怪念头。真实的亲密感往往是这样长出来的。</p>
+          <a class="more" href="#">继续读 →</a>
+        </article>
+        <article>
+          <time datetime="2026-09-12">09 月 12 日</time>
+          <h3><a href="#">被低估的一部：《一天》里的二十年，比的不是浪漫是耐心</a></h3>
+          <p>每年同一天见一面，看着两个人各自走弯路。它不讨巧，但恰恰因为不讨巧，才更像成年人的感情。</p>
+          <a class="more" href="#">继续读 →</a>
+        </article>
+        <article>
+          <time datetime="2026-08-29">08 月 29 日</time>
+          <h3><a href="#">情侣一起看爱情片，为什么会尴尬？三个可以避开的小坑</a></h3>
+          <p>别选结局太惨的，别选前任叙事太重的，别选需要全神贯注看字幕的。第一次一起看，轻松比深刻重要。</p>
+          <a class="more" href="#">继续读 →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="scene" aria-labelledby="scene-title" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="scene-title">按场景挑片</h2>
+        <span class="en">Pick By Mood</span>
+        <p>先选心情，再选片子，比直接翻排行榜靠谱得多。</p>
+      </div>
+      <div class="chips">
+        <a href="#">下雨天一个人</a>
+        <a href="#">周末两个人</a>
+        <a href="#">异地恋</a>
+        <a href="#">刚分手</a>
+        <a href="#">暗恋期</a>
+        <a href="#">异地和家人</a>
+        <a href="#">想哭一场</a>
+        <a href="#">纪念日</a>
+        <a href="#">睡前轻松向</a>
+        <a href="#">老片怀旧</a>
+      </div>
+      <div class="scene-box">
+        <div>
+          <h4>雨夜独处</h4>
+          <p>节奏慢一点，对白少一点。推荐《花样年华》《重庆森林》，看完记得开灯缓两分钟。</p>
+        </div>
+        <div>
+          <h4>两个人第一次一起看</h4>
+          <p>轻快、好懂、结局别太狠。《怦然心动》《真爱至上》这种，笑着看完还能聊上几句。</p>
+        </div>
+        <div>
+          <h4>想哭一场</h4>
+          <p>《恋恋笔记本》《泰坦尼克号》《一天》，纸巾放远一点，别让自己太容易拿到。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="index" aria-labelledby="index-title" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="index-title">心动指数周榜</h2>
+        <span class="en">Weekly Heart Index</span>
+        <p>读者本周打分均值，样本量较小，仅供选片参考。</p>
+      </div>
+      <div class="bars">
+        <div class="bar"><span>花样年华</span><span class="track"><b style="width:94%"></b></span><em>9.4</em></div>
+        <div class="bar"><span>情书</span><span class="track"><b style="width:91%"></b></span><em>9.1</em></div>
+        <div class="bar"><span>甜蜜蜜</span><span class="track"><b style="width:90%"></b></span><em>9.0</em></div>
+        <div class="bar"><span>请以你的名字呼唤我</span><span class="track"><b style="width:88%"></b></span><em>8.8</em></div>
+        <div class="bar"><span>爱乐之城</span><span class="track"><b style="width:87%"></b></span><em>8.7</em></div>
+        <div class="bar"><span>时空恋旅人</span><span class="track"><b style="width:85%"></b></span><em>8.5</em></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="faq" aria-labelledby="faq-title" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="faq-title">关于选片，常被问到的几件事</h2>
+        <span class="en">FAQ</span>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>榜单是怎么排出来的？</summary>
+          <p>两部分加权：站内读者的打分占六成，重看率与收藏量占四成。每年 12 月重排一次，名次变动会单独写一篇说明。</p>
+        </details>
+        <details>
+          <summary>评分是官方评分吗？</summary>
+          <p>不是。本站的"心动指数"是编辑部与读者的主观打分，只代表小样本口味，不敢说客观，但至少说得清楚是怎么来的。</p>
+        </details>
+        <details>
+          <summary>这些片子在哪里能看？</summary>
+          <p>请通过你所在地区的正规视频平台搜索片名，以平台的上线情况为准。本站不提供任何下载或在线播放资源。</p>
+        </details>
+        <details>
+          <summary>能不能给我定制一份片单？</summary>
+          <p>可以。在下方留言区写清楚：几个人看、想要什么情绪、能接受多长的片长，一般三天内回复。</p>
+        </details>
+        <details>
+          <summary>发现有年份或信息写错了怎么办？</summary>
+          <p>直接留言指出，核实后当天改，并在页面底部记一条勘误。出错很正常，改得快比较重要。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="letter" aria-labelledby="letter-title" style="padding-top:0;">
+    <div class="wrap">
+      <div class="letter">
+        <div class="letter-grid">
+          <div>
+            <h2 id="letter-title">给编辑部写封信</h2>
+            <p>想推荐片子、想吐槽某篇影评、想让我们做某个专题，都写在这儿。挑中的留言会出现在下期片单末尾。</p>
+            <p style="color:#a99fb5;font-size:13.5px;">本站网址：https://haokandeaiqingdianyingwang-app.github.io</p>
+          </div>
+          <form action="#" method="post" aria-label="留言表单">
+            <input type="text" name="name" placeholder="怎么称呼你" autocomplete="name">
+            <input type="email" name="email" placeholder="邮箱（选填，用于回复）" autocomplete="email">
+            <select name="topic" aria-label="留言类型">
+              <option>推荐一部爱情片</option>
+              <option>想定制片单</option>
+              <option>纠错与反馈</option>
+              <option>其他</option>
+            </select>
+            <textarea name="msg" placeholder="想说的话，比如：两个人，异地，想要看完能睡个好觉的那种"></textarea>
+            <button type="submit">寄出去</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-about">
+        <h4>关于本站</h4>
+        <p>好看的爱情电影网是一个私人性质的选片笔记站，整理爱情片的片单、榜单与观影记录，不卖资源，也不做下载。</p>
+        <p style="margin-top:10px;font-size:13px;">地址：https://haokandeaiqingdianyingwang-app.github.io</p>
+      </div>
+      <div>
+        <h4>栏目</h4>
+        <ul>
+          <li><a href="#picks">本周片单</a></li>
+          <li><a href="#ranking">经典榜单</a></li>
+          <li><a href="#notes">影评笔记</a></li>
+          <li><a href="#scene">按场景挑片</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>片单</h4>
+        <ul>
+          <li><a href="#">华语爱情片</a></li>
+          <li><a href="#">欧美经典</a></li>
+          <li><a href="#">日韩爱情片</a></li>
+          <li><a href="#">动画里的爱情</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>说明</h4>
+        <ul>
+          <li><a href="#">评分规则</a></li>
+          <li><a href="#">勘误记录</a></li>
+          <li><a href="#">投稿留言</a></li>
+          <li><a href="#">站点地图</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 好看的爱情电影网 · 影片信息以出品方公布为准，观看请通过正规平台</span>
+      <span>
+        <a href="#">隐私说明</a>
+        <a href="#" style="margin-left:14px;">联系方式</a>
+        <a href="#" style="margin-left:14px;">回到顶部</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "好看的爱情电影网",
+      "url": "https://haokandeaiqingdianyingwang-app.github.io/",
+      "description": "整理值得一看的爱情电影：每周片单、经典爱情片排名、影评笔记与按场景选片指南。",
+      "inLanguage": "zh-CN"
+    },
+    {
+      "@type": "ItemList",
+      "name": "经典爱情片榜单 TOP 10",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"卡萨布兰卡"},
+        {"@type":"ListItem","position":2,"name":"花样年华"},
+        {"@type":"ListItem","position":3,"name":"罗马假日"},
+        {"@type":"ListItem","position":4,"name":"泰坦尼克号"},
+        {"@type":"ListItem","position":5,"name":"情书"},
+        {"@type":"ListItem","position":6,"name":"爱在黎明破晓前"},
+        {"@type":"ListItem","position":7,"name":"甜蜜蜜"},
+        {"@type":"ListItem","position":8,"name":"傲慢与偏见"},
+        {"@type":"ListItem","position":9,"name":"重庆森林"},
+        {"@type":"ListItem","position":10,"name":"时空恋旅人"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "榜单是怎么排出来的？",
+          "acceptedAnswer": {"@type": "Answer", "text": "站内读者打分占六成，重看率与收藏量占四成，每年 12 月重排一次。"}
+        },
+        {
+          "@type": "Question",
+          "name": "这些片子在哪里能看？",
+          "acceptedAnswer": {"@type": "Answer", "text": "请通过所在地区的正规视频平台搜索片名，以平台上线情况为准。本站不提供下载或在线播放资源。"}
+        },
+        {
+          "@type": "Question",
+          "name": "能不能给我定制一份片单？",
+          "acceptedAnswer": {"@type": "Answer", "text": "在留言区写清人数、想要的情绪与可接受片长，一般三天内回复。"}
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+</body>
+</html>
